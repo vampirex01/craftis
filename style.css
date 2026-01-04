@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: tt-prosto;
+  src: url(assets/fonts/light.otf) format("opentype");
+}
+
+body {
+  font-family: tt-prosto;
+  background-color: #f0f0f0;
+}
