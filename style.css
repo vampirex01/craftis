@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: tt-proto;
+  src: url(assets/fonts/light.otf) format("opentype");
+}
+
+body,
+button {
+  font-family: tt-proto, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 30px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #01412592;
+}
