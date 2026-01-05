@@ -12,15 +12,21 @@
 body,
 button {
   font-family: tt-proto, sans-serif;
-  line-height: 1.6;
 }
 
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: transparent;
-  padding: 30px 20px;
+  padding: 20px 20px;
+}
+
+.logo {
+  padding: 30px;
 }
 
 nav ul {
@@ -42,4 +48,40 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #01412592;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+}
+
+.hero_left {
+  width: 50%;
+  display: flex;
+  background-color: #d7d6d6;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_left h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.hero_left button {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  background: #1d1d1d;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.hero_right {
+  flex: 1;
+  background: url(assets/images/pot.jpg) no-repeat center center/cover;
+  width: 50%;
 }
